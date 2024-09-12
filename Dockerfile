@@ -20,6 +20,8 @@ COPY . .
 
 WORKDIR /app/app
 RUN chmod -R 777 /app/app
+RUN mkdir -p /.cache
+RUN chmod -R 777 /.cache
 
 # Expose port 8000 to allow external access to the FastAPI application
 EXPOSE 8000
