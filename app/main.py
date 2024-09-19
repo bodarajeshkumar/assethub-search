@@ -8,8 +8,8 @@ warnings.filterwarnings("ignore")
 
 app = FastAPI()
 app.add_middleware(
-    ["*"],
-    allow_origins=origins,
+    CORSMiddleware,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
