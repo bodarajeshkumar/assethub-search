@@ -1,11 +1,19 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 from milvus_wrapper import MilvusWrapper
+from fastapi.middleware.cors import CORSMiddleware
 import warnings
 
 warnings.filterwarnings("ignore")
 
 app = FastAPI()
+app.add_middleware(
+    [*],
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Define paths and collection details
 db_path = "./milvus_database.db"
