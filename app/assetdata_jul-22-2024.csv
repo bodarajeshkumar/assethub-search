@@ -645,7 +645,7 @@ Note:
 proxy_server.py file: Flask API to call Watsonx.AI Model. To use WatsonX.AI for llm model, one wrapper is written on top of this.
 
 Library:
-pip install pyautogen;
+pip install ag2;
 pip install flask",1,multi-agent.py,local,,,1,0,0,0,0,1717150336562,1717151058074,75,7385f3d6-e16e-46b1-8d6f-db731c6f5e19,,,1,watsonx.ai,python
 xttszkftjy,XML to SQL generation v1,Mohammed Ali Shaik,This is an streamlit app which needs required environmental variables related to watsonx and an xml file which has ETL for informatica as input to run the app.,4,bash.sh,local,,,0,0,0,0,0,1717150451859,1717150451859,184,0f41e761-42a2-4c29-ac89-21bce9104036,,,13,Use-case,bash
 fjilppthkr,XML to SQL generation v2,Mohammed Ali Shaik,This is an streamlit app which needs required environmental variables related to watsonx and an xml file which has ETL for informatica as input to run the app.,4,bash.sh,local,,,0,0,0,0,0,1717158828401,1717158828401,184,0f41e761-42a2-4c29-ac89-21bce9104036,,,13,Use-case,bash
